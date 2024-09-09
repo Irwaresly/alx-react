@@ -1,4 +1,10 @@
+/* Notifications.css */
 .Notifications {
-  border: 1px dotted #b50e0e;
+  border: 2px dotted #6f0808;
   padding: 20px;
+  position: fixed; /* Fixes it to the top of the viewport */
+  top: 0;
+  left: 0;
+  width: 100%; /* Optional: makes it span the full width of the viewport */
+  z-index: 1000; /* Optional: ensures it stays on top of other content */
 }
