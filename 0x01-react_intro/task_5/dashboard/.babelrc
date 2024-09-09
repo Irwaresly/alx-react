@@ -1,0 +1,6 @@
+{
+    "presets": [
+      "@babel/preset-env", // This preset is used to compile ES6 or ES7 code to ES5 code
+      "@babel/preset-react" // This preset is used to compile JSX and React code to ES5 code
+    ]
+  }
