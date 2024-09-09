@@ -1,0 +1,49 @@
+/* App.css */
+.App {
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Aligns the content to the left */
+  background-color: white;
+  padding: 20px;
+  border-bottom: 3px solid #e30613;
+}
+
+.App-header img {
+  height: 150px;
+  margin-right: 20px;
+}
+
+.App-header h1 {
+  font-size: 2.5em;
+  color: #e30613;
+  margin: 0;
+  flex-grow: 1; /* Allows the h1 to grow and center itself */
+  text-align: left; /* Centers the text within the available space */
+}
+
+.App-body {
+  padding: 10px;
+  text-align: left;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.App-footer {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 0.9em;
+  font-style: italic;
+  border-top: 3px solid #e30613;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+
+}
+
+
